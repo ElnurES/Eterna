@@ -1,0 +1,69 @@
+@media(max-width: 979px) and (min-width: 768px){
+  .btn{
+    width: 78%;
+    }
+    .nav-content{
+        display: none;
+    }
+    .nav-mobil{
+        display: block !important;
+        float: right;
+    }
+    .nav-header {
+        padding-bottom: 40px;
+    }
+
+}
+
+.nav-mobil{
+    display: none;
+}
+
+@media(max-width: 768px) and (min-width: 0px){
+    .phone-box{
+        text-align: center;
+        padding-bottom: 20px;
+        font-size: 12px;
+    }
+    header .top-header .social-box{
+        text-align: center;
+        float: none;
+        margin-bottom: 20px;
+        width: 90%;
+    }
+
+    .nav-header .logo{
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .nav-content{
+        display: none;
+    }
+    .nav-mobil{
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .nav-mobil .select-menu{
+        width: 100%;
+    }
+    .right-position{
+        display: none;
+    }
+    .left-position .context{
+        display: none;
+    }
+
+    .company-name i{
+        display: none;
+    }
+
+    .logo{
+        text-align: center;
+        float: none;
+    }
+    .slider-background .container .row {
+        padding-top: 0 !important;
+    }
+
+}
